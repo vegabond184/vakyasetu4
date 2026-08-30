@@ -15,7 +15,7 @@ import time
 import pyautogui
 import threading
 import news
-
+import photos
 
 ACCENT = "#3b82f6"
 BG_CARD = "#0f172a"
@@ -293,6 +293,9 @@ class VakyaSetu(QWidget):
             
             elif self.current == 2:
                 news.main()
+
+            elif self.current == 4:
+                photos.main()
 
 
         elif e.key() == Qt.Key.Key_Escape:

@@ -1,17 +1,3 @@
-"""
-Fullscreen News Kiosk App
---------------------------
-Controls:
-    Delete  -> next article
-    Return  -> previous article
-    Escape  -> quit
-
-Requires:
-    pip install customtkinter requests pillow
-
-Get a free API key at https://newsapi.org/register
-"""
-
 import customtkinter as ctk
 import requests
 import threading
